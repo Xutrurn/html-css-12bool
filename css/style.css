@@ -1,0 +1,12 @@
+.row .row {
+  padding: 5px;
+}
+
+.row [class*="col-"] {
+  background-color: #ffc0cb;
+}
+
+.row .row [class*="col-"] {
+  background-color: #f07f80;
+  border: 1px solid white;
+}
